@@ -30,6 +30,8 @@ services:
       - postgres
     networks:
       - backend
+    volumes:
+      - ./config_local.py:/pgadmin4/config_local.py
 
 volumes:
   postgres_data:

@@ -1,0 +1,4 @@
+# Disable CSRF and XSRF protection for GitHub Codespaces
+ENABLE_CSRF_PROTECTION = False
+ENABLE_XSRF_PROTECTION = False
+ENHANCED_COOKIE_PROTECTION = False
